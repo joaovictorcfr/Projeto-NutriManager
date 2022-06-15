@@ -1,0 +1,21 @@
+.containerbody{
+  height: 100%;
+  width: 100%;
+}
+
+.containerbody{
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    to right,
+    rgb(45, 134, 45),
+    rgb(50, 151, 47),
+    rgb(60, 236, 53)
+  );
+}
+
+.containerbody img{
+  height: 700px;
+  padding-left: 500px;
+  padding-top: 100px;
+}

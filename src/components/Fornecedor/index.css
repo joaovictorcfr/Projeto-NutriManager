@@ -1,0 +1,196 @@
+.tools h1 {
+  color: #eff2f5;
+  font-size: 300%;
+  text-align: center;
+}
+
+.bobycenter{
+  background: linear-gradient(
+    to right,
+    rgb(45, 134, 45),
+    rgb(50, 151, 47),
+    rgb(60, 236, 53)
+  );
+ width: 100%;
+ height: 100%;
+ display: flex;
+}
+
+.name-fornecedor {
+  justify-content: space-between;
+  margin-bottom: 10px;
+  display: flex;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  width: 60%;
+  margin-right: 50px;
+  height: 50px;
+}
+
+.name-fornecedor input {
+  font-size: 18px;
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #272729;
+  border: none;
+}
+
+.city {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60%;
+  height: 50px;
+}
+
+.city input {
+  font-size: 18px;
+  outline-width: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  padding: 3px;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.cpf {
+  justify-content: space-between;
+  margin-bottom: 10px;
+  display: flex;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  width: 60%;
+  margin-right: 50px;
+  height: 50px;
+}
+
+.cpf input {
+  font-size: 18px;
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #272729;
+  border: none;
+}
+
+.telefone {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60%;
+  height: 50px;
+}
+
+.telefone input {
+  font-size: 18px;
+  outline-width: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  padding: 3px;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.tipoProduto {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  padding: 3px;
+  width: 63%;
+  height: 50px;
+}
+
+.tipoProduto input {
+  font-size: 18px;
+  outline-width: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  background-color: #eff2f5;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  width: 100%;
+  height: 50px;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+.tools button {
+  width: 30%;
+  background-color: #2d862d;
+  color: #eff2f5;
+  font-weight: 800;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  border: none;
+
+  outline-width: 0;
+}
+
+.tools button:hover {
+  background-color: #574a4a;
+  color: #f5f1ef;
+  cursor: pointer;
+}
+
+.tools {
+  background-color: #000000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 60px;
+}
+
+.container {
+  padding: 0 auto;
+  margin: 0 auto;
+  background-color: #000000;
+  width: 900px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.count1 {
+  justify-content: space-between;
+  display: flex;
+}
+.count2 {
+  justify-content: space-between;
+  display: flex;
+}

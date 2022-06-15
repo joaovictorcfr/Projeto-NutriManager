@@ -1,0 +1,25 @@
+.body {
+  height: 100%;
+  width: 100%;
+  background-image: url(./Img/funcionarios.png);
+  background-repeat: no-repeat;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    to right,
+    rgb(45, 134, 45),
+    rgb(50, 151, 47),
+    rgb(60, 236, 53)
+  );
+}
+
+.body img {
+  margin-top: 100px;
+  padding-left: 300px;
+  width: 1400px;
+  height: 600px;
+  border-radius:20px;
+}
